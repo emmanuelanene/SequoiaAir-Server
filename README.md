@@ -1,4 +1,4 @@
-# ✈️ &ensp; Sequoia Air - SERVER Web Application
+# ✈️ &nbsp;Sequoia Air - SERVER Web Application
 
 ### *Connecting you with the world and the world with you.*
 
