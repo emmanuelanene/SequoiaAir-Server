@@ -1,5 +1,6 @@
 package com.emmanuelanene.sequoia_air.dtos;
 
+import com.emmanuelanene.sequoia_air.entities.Role;
 import jakarta.validation.constraints.Email;
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.Size;

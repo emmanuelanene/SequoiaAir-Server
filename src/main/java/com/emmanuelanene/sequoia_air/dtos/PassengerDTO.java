@@ -28,5 +28,4 @@ public class PassengerDTO {
     private String seatNumber;
 
     private String specialRequests;
-
 }

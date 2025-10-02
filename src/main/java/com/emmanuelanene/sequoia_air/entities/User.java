@@ -6,6 +6,7 @@ import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
+import org.springframework.web.multipart.MultipartFile;
 
 import java.time.LocalDateTime;
 import java.util.ArrayList;
@@ -38,6 +39,8 @@ public class User {
     @Enumerated(EnumType.STRING)
     private AuthMethod provider;
 
+    private String profilePictureUrl;
+
     private String providerId; // ID from OAuth provider
 
     @ManyToMany(fetch = FetchType.EAGER)
@@ -54,7 +57,7 @@ public class User {
     private List<Booking> bookings = new ArrayList<>();
 
     @Column(updatable = false)
-    private LocalDateTime createdAt;
+    private LocalDateTime createdAt =  LocalDateTime.now();
 
     private LocalDateTime updatedAt;
 }

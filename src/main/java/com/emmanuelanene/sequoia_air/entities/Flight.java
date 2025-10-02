@@ -18,7 +18,6 @@ import java.util.List;
 @AllArgsConstructor
 @NoArgsConstructor
 public class Flight {
-
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;

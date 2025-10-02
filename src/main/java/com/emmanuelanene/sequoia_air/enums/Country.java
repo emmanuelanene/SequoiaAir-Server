@@ -7,6 +7,8 @@ public enum Country {
 }
 
 /*
+ENUMS ARE SPECIAL CLASSES WITH PREDEFINED INSTANCES. NORMALLY YOU SHOULDNT DEFINE AN INSTANCE OF A CLASS IN THE SAME  CLASS BUT WITH ENUMS THAT'S WHAT'S HAPPENING BEHIND TH SCENE.
+
 Enums are actually just customized classes. Here's what an enum would look like as a regular class
 
 public class Country {
